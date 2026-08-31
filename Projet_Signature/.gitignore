@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Cryptographic keys and generated signature
+private_key.pem
+public_key.pem
+signature.bin
+
+# VS Code
+.vscode/
