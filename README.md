@@ -5,13 +5,17 @@ Projet réalisé en binôme dans le cadre du module de Sécurité Informatique.
 ## 👥 Auteurs
 
 ◆◇◈ [Safaa Mounkid](https://github.com/SafaaM1234)
+
 ◆◇◈ [Marwa Maqsousi](https://github.com/Marwa-Maqsoudi)
+
+---
+
 
 ## 📌 Description
 
 Cette application desktop, développée en Python, permet de démontrer le fonctionnement d'une signature numérique basée sur RSA.
 
-L'application permet de :
+**L'application permet de :**
 
 - Générer une paire de clés RSA
 - Signer un message
@@ -19,6 +23,8 @@ L'application permet de :
 - Détecter la modification d'un message
 
 L'objectif du projet est de comprendre les principes de base de la cryptographie asymétrique et de la signature numérique.
+
+---
 
 ## 🛠️ Technologies
 
@@ -30,7 +36,8 @@ L'objectif du projet est de comprendre les principes de base de la cryptographie
 - SHA-256
 
 ---
-## 📂 Structure du projet
+
+##  📂 Structure du projet
 - `Projet_Signature/` → Dossier principal du code
   - `.gitignore` → Fichiers exclus du suivi Git
   - `README.md` → Documentation du projet
@@ -41,24 +48,24 @@ L'objectif du projet est de comprendre les principes de base de la cryptographie
 
 ---
 ## ⚙️ Installation
-1. Cloner le repository :
+**1. Cloner le repository :**
    ```bash
    git clone https://github.com/SafaaMarwaProjects/Signature-Numerique.git
    cd Signature-Numerique/Projet_Signature
    ```
-2.Installer les dépendances :
+**2. Installer les dépendances :**
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-##▶️ Utilisation
-Lancer l’application :
+## ▶️ Utilisation
+**Lancer l’application :**
 ```bash
 python signature_numerique.py
    ```
 
-Interface graphique :
+**Interface graphique** :
 
 ● Générer clés → Crée une paire de clés RSA (privée/publique)
 
@@ -68,21 +75,23 @@ Interface graphique :
 
 ● ❌ Quitter → Ferme l’application
 
+---
+
 ## 📸 Aperçu
-▣ Fenêtre principale 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/fenetre_principale.png)
+### ▣ Fenêtre principale 
+![Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/fenetre_principale.png)
 
-▣ Clés générées
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/cles_generees.png)
+### ▣ Clés générées
+![Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/cles_generees.png)
 
-▣ Message signé
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/message_signe.png)
+### ▣ Message signé
+![Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/message_signe.png)
 
-▣ Signature valide
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/signature_valide.png)
+### ▣ Signature valide
+![Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/signature_valide.png)
 
-▣ Signature invalide
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/signature_invalide.png)
+### ▣ Signature invalide
+![Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !](images/signature_invalide.png)
 
 ---
 📖 Licence
