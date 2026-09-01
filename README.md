@@ -40,11 +40,11 @@ L'objectif du projet est de comprendre les principes de base de la cryptographie
 ##  📂 Structure du projet
 - `Projet_Signature/` → Dossier principal du code
   - `.gitignore` → Fichiers exclus du suivi Git
-  - `README.md` → Documentation du projet
   - `requirements.txt` → Dépendances Python
   - `signature_numerique.py` → Application principale
 - `rapport_Signature_Numerique.pdf` → Rapport détaillé du projet
 - `images/` → Captures d’écran de l’application
+- `README.md` → Documentation du projet
 
 ---
 ## ⚙️ Installation
